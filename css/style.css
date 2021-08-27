@@ -155,10 +155,6 @@ header {
     -o-transition: 0.5s background-color;
 }
 
-.nav-container {
-    width: 60%;
-}
-
 .nav-links {
     position: relative;
     display: flex;
@@ -208,8 +204,7 @@ header {
     position: fixed;
     height: 100%;
     width: 100%;
-    top: 0%;
-    left: 100%;
+    top: 0;
     background: black;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -217,6 +212,8 @@ header {
     -ms-transition: 0.5s;
     -o-transition: 0.5s;
     z-index: 999999;
+    animation: backInDown 1s both;
+    -webkit-animation: backOutDown 1s both;
 }
 
 
@@ -309,6 +306,8 @@ header {
 
 .nav-container.active {
     left: 0;
+    animation: backInRight 1s both;
+    -webkit-animation: backInRight 1s both;
 }
 
 

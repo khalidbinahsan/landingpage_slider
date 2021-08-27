@@ -31,7 +31,8 @@ $(document).ready(function() {
         nav: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 7000,
-        smartSpeed: 1200
+        autoplayTimeout: 10000,
+        smartSpeed: 1200,
+
     });
 });
