@@ -315,6 +315,10 @@ header {
 
 /* ==== Slider ===== */
 
+.main-slider {
+    background: rgb(41, 41, 41);
+}
+
 .main-slider .item {
     height: 100vh;
 }

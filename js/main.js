@@ -26,15 +26,15 @@ document.addEventListener('scroll', () => {
 });
 // Owl carousel customize
 $(document).ready(function() {
-    var owl = $('.main-slider .my-carousel').owlCarousel({
+    $('.main-slider .my-carousel').owlCarousel({
         items: 1,
         loop: true,
         nav: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 10000,
-        smartSpeed: 1200
-
+        autoplayTimeout: 12000,
+        smartSpeed: 1200,
+        animateIn: 'animate__jackInTheBox'
     });
 
 });
