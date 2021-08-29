@@ -24,15 +24,17 @@ document.addEventListener('scroll', () => {
         header.style.backgroundColor = "transparent"
     }
 });
+// Owl carousel customize
 $(document).ready(function() {
-    $('.main-slider .owl-carousel').owlCarousel({
+    var owl = $('.main-slider .my-carousel').owlCarousel({
         items: 1,
         loop: true,
         nav: true,
         dots: true,
         autoplay: true,
         autoplayTimeout: 10000,
-        smartSpeed: 1200,
+        smartSpeed: 1200
 
     });
+
 });

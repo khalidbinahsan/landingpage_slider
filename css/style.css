@@ -205,6 +205,7 @@ header {
     height: 100%;
     width: 100%;
     top: 0;
+    opacity: 0;
     background: black;
     transition: 0.5s;
     -webkit-transition: 0.5s;
@@ -306,6 +307,7 @@ header {
 
 .nav-container.active {
     left: 0;
+    opacity: 1;
     animation: backInRight 1s both;
     -webkit-animation: backInRight 1s both;
 }
@@ -335,19 +337,19 @@ header {
 
 .owl-dots button.owl-dot {
     width: 20px;
-    height: 20px;
+    height: .8rem;
     margin: 5px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
     border: 1px solid #fff;
     outline: none;
 }
 
 .owl-dots button.owl-dot.active {
-    background: #fff;
+    background: rgb(155, 155, 155);
 }
 
 .owl-prev {
